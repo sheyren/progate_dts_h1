@@ -90,6 +90,307 @@
 }
 .dropdown-content a:hover {
   background-color: #ebbdaf}
+      
+.header-right:hover .dropdown-content {
+  display: block;
+}
+.header-right:hover .btn-header {
+  background-color: #3e8e41;
+}
+
+  .logo{
+    margin-top:10px;
+  width: 120px;
+  height : 50px;
+}
+  
+  .top-wrapper {
+    text-align: center;
+  }
+  .top-wrapper h1{
+    font-size : 25px
+  }
+
+  .heading-bottom h2{/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .heading h2 {
+    font-size: 27px;
+  }
+  .header-right a {
+  line-height: 71px;
+  padding: 0 25px;
+  color: #ffbf00;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  font-weight: bold;
+}
+  .logo{
+    margin-top:5px;
+    width: 140px;
+    height : 60px;
+  }
+.tourist-wrapper {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.tourist {
+  float: left;
+  width: 100%;
+}
+.top-wrapper h1{
+  font-size : 30px;
+}
+
+  footer {
+    text-align: left;
+  }
+  footer img{
+  width : 100px;
+  float:left;
+  margin:5px;
+  
+}
+.footer_copyright h3 {
+  float:right;
+  color:white;
+  margin-top:10px;
+}
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+/*untuk dropdown menu */
+  .btn-header {
+  color: white;
+  padding: 0 25px;
+  width:150px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  line-height: 71px;
+  display: block;
+  background-color: rgba(249,136,102, 0.8);
+  /* transition: all 0.5s; */
+}
+.header-right {
+  position: relative;
+  display: inline-block;
+  
+}
+.header-right a{
+  line-height: 40px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f19063;
+  min-width : 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+  right: 0;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 0px 5px 0px 10px;
+  text-decoration: none;
+  display: block;
+  width :100%;
+  font-size:15px;
+}
+.dropdown-content a:hover {
+  background-color: #ebbdaf}
+
+.header-right:hover .dropdown-content {
+  display: block;
+}
+.header-right:hover .btn-header {
+  background-color: #3e8e41;
+}
+
+  .logo{
+    margin-top:10px;
+  width: 120px;
+  height : 50px;
+}
+  
+  .top-wrapper {
+    text-align: center;
+  }
+  .top-wrapper h1{
+    font-size : 25px
+  }
+
+  .heading-bottom h2{
+    font-size : 24px
+  }
+
+  .tourist-wrapper {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.tourist {
+  float: left;
+  width: 100%;
+}
+
+input, textarea {
+  width:100%;
+  padding:10px;
+  font-size:12px;
+  border:1px solid #dee7ec;
+}
+
+  footer {
+    text-align: left;
+  }
+  footer img{
+  /* width:100px; */
+  width : 70px;
+  float:left;
+  margin:10px;
+  
+}
+.footer_copyright h3 {
+  float:right;
+  color:white;
+  font-size:15px;
+  width:150px;
+  margin-top:5px;
+}
+}
+    font-size : 24px
+  }
+
+  .tourist-wrapper {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.tourist {
+  float: left;
+  width: 100%;
+}
+
+input, textarea {
+  width:100%;
+  padding:10px;
+  font-size:12px;
+  border:1px solid #dee7ec;
+}
+
+  footer {
+    text-align: left;
+  }
+  footer img{
+  /* width:100px; */
+  width : 70px;
+  float:left;
+  margin:10px;
+  
+}
+.footer_copyright h3 {
+  float:right;
+  color:white;
+  font-size:15px;
+  width:150px;
+  margin-top:5px;
+}
+}
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .heading h2 {
+    font-size: 27px;
+  }
+  .header-right a {
+  line-height: 71px;
+  padding: 0 25px;
+  color: #ffbf00;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  font-weight: bold;
+}
+  .logo{
+    margin-top:5px;
+    width: 140px;
+    height : 60px;
+  }
+.tourist-wrapper {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.tourist {
+  float: left;
+  width: 100%;
+}
+.top-wrapper h1{
+  font-size : 30px;
+}
+
+  footer {
+    text-align: left;
+  }
+  footer img{
+  width : 100px;
+  float:left;
+  margin:5px;
+  
+}
+.footer_copyright h3 {
+  float:right;
+  color:white;
+  margin-top:10px;
+}
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+/*untuk dropdown menu */
+  .btn-header {
+  color: white;
+  padding: 0 25px;
+  width:150px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  line-height: 71px;
+  display: block;
+  background-color: rgba(249,136,102, 0.8);
+  /* transition: all 0.5s; */
+}
+.header-right {
+  position: relative;
+  display: inline-block;
+  
+}
+.header-right a{
+  line-height: 40px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f19063;
+  min-width : 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+  right: 0;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 0px 5px 0px 10px;
+  text-decoration: none;
+  display: block;
+  width :100%;
+  font-size:15px;
+}
+.dropdown-content a:hover {
+  background-color: #ebbdaf}
 
 .header-right:hover .dropdown-content {
   display: block;
